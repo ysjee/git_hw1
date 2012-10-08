@@ -1,0 +1,103 @@
+/* Reset CSS: from YUI2: Reset CSS */
+html{color:#502900;
+	background:#FAECC5; 
+	padding:20px 0;
+	font: 12px/18px "돋움", "Malgun Gothic", "굴림", "Gulim", Verdana, Arial, Tahoma;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+/*
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{font-size:100%;}
+*/
+h1 {font-size:32px; 
+	line-height:70px; 
+	font-weight:bold;
+	position: absolute;
+	top : 80px;
+	left : 35%;
+}
+h2 {font-size:12px; line-height:24px; font-weight:bold;}
+a:visited, a:link {color:#502900;text-decoration:none;}
+a:hover, a:active {color:#1B0000;}
+/*navigation menubar */
+div.navi{
+	width:430px; height:30px;background-color:#03497d;
+	position: absolute;
+	left : 32%;
+	background-color:#FFFFB4;
+}
+div.navi ul li{
+	float:left;
+}
+div.navi a{
+	color:#fff; background-color:#502900;
+	display:block;
+	width:120px;
+	text-align:center;
+	padding:0px 10px; 
+	font: bold 12px/30px Tahoma;
+	text-decoration:none;
+	margin-right:3px;
+}
+div.navi a:hover{
+	background-color:#754C00;
+}
+/*index1*/
+#introTable{
+	position: absolute;
+	top : 160px;
+	left : 35%;
+}
+#introTable table{
+	font-size:12px; line-height:24px;  text-align: center;
+}
+td.sub{
+	font-size:12px; line-height:24px; background-color:#FFFFB4;
+
+}
+#call{
+	position: absolute;
+	top : 420px;
+	left : 35%;
+
+}
+/*index2*/
+#introTime{
+	position: absolute;
+	top : 160px;
+	left : 20%;
+}
+#timeTable table{
+	position: absolute;
+	top : 220px;
+	left : 20%;
+	height: 25%;	
+}
+#timeTable td{
+	width: 10%;
+}
+td.day,td.time{
+	text-align: center;
+	font-size:12px;
+	line-height:24px;
+	background-color:#FFFFB4;
+}
+/*index3*/
+#research{
+	position: absolute;
+	top : 220px;
+	left : 35%;
+}

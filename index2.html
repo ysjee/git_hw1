@@ -3,59 +3,79 @@
 <head>
 	<meta charset="utf-8">
 	<title>2번 페이지</title>
+	<link href="stylesheet/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<p>
-<a href ="index.html">◀이전페이지</a> || <a href ="index3.html">다음페이지▶</a>
-</p>
-	<h1 style ="text-align:center">이번학기 시간표</h1>
-<div>
+<div class="navi">
+	<ul>
+	<li>
+		<a href="index.html">자기소개</a>
+	</li>
+	<li>
+		<a href="index2.html">시간표</a>
+	</li>
+	<li>
+		<a href="index3.html">설문조사</a>
+	</li>
+</ul>
+	
+</div>
+	<h1>이번학기 시간표</h1>
+<div id="introTime">
 	<ul>
 		<li>학교 강의 : 15학점</li>
 		<li>인터넷 강의 : 3학점</li>
 		<li>총학점 : 18학점</li>
 	</ul>
+</div>
+<div id="timeTable">
 	<table border="1">
 		<tr>
 			<td>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				
 		</td>
-		<td>
-			월&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<td class="day">
+			월
 		</td>
-		<td>
-			화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<td class="day">
+			화
 		</td>
-		<td>
-			수&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<td class="day">
+			수
 		</td>
-		<td>
-			목&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<td class="day">
+			목
 		</td>
-		<td>
-			금&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<td class="day">
+			금
 		</td>
 		</tr>
 		<tr>
-			<td>
+			<td class="time">
 				1. 09:00 ~ 
 		</td>
 		<td>
+			<a href="http://home.mju.ac.kr" target="_blank">
 			선형대수학개론
+		</a>
 		</td>
 		<td>
 		</td>
 		<td rowspan="2">
+			<a href="http://home.mju.ac.kr" target="_blank">
 			선형대수학개론
+		</a>
 		</td>
 		<td>
 		</td>
 		<td rowspan="3">
+			<a href="http://home.mju.ac.kr" target="_blank">
 			글쓰기
+		</a>
 		</td>
 		</tr>
 		<tr>
-			<td>
+			<td class="time">
 				2. 10:00 ~
 		</td>
 		<td>
@@ -66,23 +86,29 @@
 		</td>
 		</tr>
 		<tr>
-			<td>
+			<td class="time">
 				3. 11:00 ~
 		</td>
 		<td>
+			<a href="http://home.mju.ac.kr" target="_blank">
 			프로그래밍언어
+		</a>
 		</td>
 		<td>
+			<a href="http://scms.mju.ac.kr" target="_blank">
 			채플
+		</a>
 		</td>
 		<td rowspan="2">
+			<a href="http://home.mju.ac.kr" target="_blank">
 			프로그래밍언어
+		</a>
 		</td>
 		<td>
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td class="time">
 			4. 12:00 ~
 		</td>
 		<td>
@@ -95,7 +121,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td class="time">
 			5. 13:00 ~
 		</td>
 		<td>
@@ -110,7 +136,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td class="time">
 			6. 14:00 ~
 		</td>
 		<td>
@@ -119,7 +145,9 @@
 		</a>
 		</td>
 		<td rowspan="3">
+			<a href="http://home.mju.ac.kr" target="_blank">
 			고급객체지향
+		</a>
 		</td>
 		<td>
 			<a href="http://tahiti.mju.ac.kr" target="_blank">
@@ -135,7 +163,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td class="time">
 			7. 15:00 ~
 		</td>
 		<td>
@@ -148,7 +176,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
+		<td class="time">
 			8. 16:00 ~
 		</td>
 		<td>
